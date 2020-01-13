@@ -1,0 +1,16 @@
+dataset,column,dtype,is_protected,new_name,description
+adult,age,int64,1,,Age of the person
+adult,workclass,object,0,,Workclass of the person (e.g. Private)
+adult,fnlwgt,int64,0,final_weight,"final weight, which is the number of units in the target population that the responding unit represents."
+adult,education,object,0,,Education level
+adult,educational-num,int64,0,,Education level (numerical format)
+adult,marital-status,object,1,,Marital status
+adult,occupation,object,0,,Field occupation
+adult,relationship,object,0,,Current relationship
+adult,race,object,1,,Ethnicity
+adult,gender,object,1,,Female or Male
+adult,capital-gain,int64,0,,Gain of capital
+adult,capital-loss,int64,0,,Loss of capital
+adult,hours-per-week,int64,0,,number of working hours during a week
+adult,native-country,object,1,,Native country
+adult,income,object,0,,Target : income > 50K or not
